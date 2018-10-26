@@ -1,0 +1,166 @@
+<html>
+<head>
+	<title>DEMO</title>
+	<link href="main.css" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body bgcolor="green">
+<span id="header">
+	<span><center>VIRTUAL LAB</center></span>
+</span>
+<span id="login">
+<button><a href="login.html">Log in</a></button>
+<button><a href="signup.html">Sign up</a></button>
+</span>
+<br/>
+
+
+<!-- this code for drop down menu-->
+<div class="dropdown">
+  <button class="dropbtn">LABS</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">EXPERIMENT</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">ABOUT</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<br/>
+<h2 class="w3-center">Important_Notice</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg" style="width:100%">
+  <img class="mySlides" src="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Free-Images-Background-PC-PIC-WPD006550.jpg" style="width:100%">
+  <img class="mySlides" src="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" style="width:100%">
+  <img class="mySlides" src="http://cdn.litlepups.net/2016/02/18/baby-dog-1920x1080-wallpapers-golden-retriever-1920x1080-wallpapers.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<div id="sem1">
+<label>1st year</label>
+<label></label>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+</div>
+<div id="sem2">
+<label>2nd year</label>
+<label></label>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+</div>
+<div id="sem3">
+<label>3rd year</label>
+<label></label>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+</div>
+<div id="sem4">
+<label>4th year</label>
+<label></label>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+</div>
+<div id="sem5">
+<label>5th year</label>
+<label></label>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+</div>
+<div id="sem6">
+<label>6th year</label>
+<label></label>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+</div>
+<div id="sem7">
+<label>7th year</label>
+<label></label>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+<a href="##"><img  id="icon1" src="https://image.flaticon.com/icons/svg/123/123381.svg"></a>
+</div>
+
+
+<center><footer style="color:red;background-color:blue">
+&copy;mickey
+</footer></center>
+</body>
+</html>
